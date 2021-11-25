@@ -1,0 +1,96 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  * {
+    margin: 0;
+    padding: 0%;
+  }
+
+  body {
+    background-color: hsl(217, 54%, 11%);
+    padding: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .mainblock {
+    background-color: hsl(216, 50%, 16%);
+    height: 530px;
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .mainpic {
+    height: 50%;
+    width: 80%;
+    margin: 27px 27px;
+    border-radius: 15px;
+  }
+  .heading{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 0 10px 10px;
+  }
+  .about{
+    padding-left: 10px;
+    color: hsl(178, 100%, 50%);
+  }
+  .values{
+    margin-top:15px ;
+  }
+  .ethpic {
+    float: left;
+    margin: 5px;
+  }
+  .cost {
+    float: left;
+    margin: 5px;
+  }
+
+  .clockpic {
+    float: right;
+    margin: 5px;
+  }
+
+  .timeleft {
+    float: right;
+    margin: 5px;
+    color:hsl(215, 51%, 70%);
+  }
+
+  hr {
+    width: 90%;
+    position: relative;
+    left: 10px;
+    border: solid 1px hsl(215, 32%, 27%);
+    margin: 60px 0 0 0;
+
+  }
+
+  .profilepic {
+    width: 50px;
+    margin: 15px 0 5px 10px;
+    border: solid 1px white;
+    border-radius: 50%;
+
+  }
+  .creatorinfo {
+    float: right;
+    margin: 28px 10px 0 0;
+  }
+
+  .changecolor {
+    color: hsl(215, 51%, 70%)
+  }
